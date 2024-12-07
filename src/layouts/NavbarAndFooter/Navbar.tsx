@@ -15,9 +15,9 @@ export const Navbar = () => {
 
 
   return (
-    <nav className='navbar navbar-expand-lg navbar-dark main-color py-3'>
+    <nav className='navbar navbar-expand-lg navbar-dark py-3' style={{ backgroundColor: 'black' }}>
       <div className='container-fluid'>
-        <span className='navbar-brand'>KL University</span>
+        <span className='navbar-brand'>GGR Library</span>
         <button className='navbar-toggler' type='button'
           data-bs-toggle='collapse' data-bs-target='#navbarNavDropdown'
           aria-controls='navbarNavDropdown' aria-expanded='false'

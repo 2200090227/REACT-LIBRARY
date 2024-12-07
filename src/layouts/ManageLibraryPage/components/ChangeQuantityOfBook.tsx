@@ -18,7 +18,7 @@ export const ChangeQuantityOfBook: React.FC<{ book: BookModel, deleteBook: () =>
 
     async function increaseQuantity() {
         if (!authState?.isAuthenticated) return;
-        const url = `http://localhost:8080/api/admin/secure/increase/book/quantity?bookId=${props.book?.id}`;
+        const url = `http://localhost:8083/api/admin/secure/increase/book/quantity?bookId=${props.book?.id}`;
         const requestOptions = {
             method: 'PUT',
             headers: {
